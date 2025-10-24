@@ -33,7 +33,7 @@ A full-stack Inventory Management System built with the MERN stack (MongoDB, Exp
 | JWT              | Authentication & session management |
 
 ---
-## 📦 Installation
+## Installation
 
 # Backend
 cd backend
@@ -62,4 +62,5 @@ REACT_APP_SOCKET_URL=http://localhost:5000
 # Run Project 
 npm run dev or npm start 
 
-
+# How to generate a secret
+node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
